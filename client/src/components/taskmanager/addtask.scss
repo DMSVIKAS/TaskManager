@@ -1,0 +1,26 @@
+.addtask {
+    width: 100%;
+
+    form {
+        width: 70%;
+        margin: 3rem auto; /* Centered the form by setting margin to auto */
+        display: flex;
+        flex-direction: column; /* Changed flex direction to column for better alignment */
+        align-items: center; /* Centered items horizontally */
+    }
+
+    input {
+        padding: 10px; /* Increased padding for better input field appearance */
+        width: 100%; /* Adjusted width to fill the container */
+        max-width: 400px; /* Added max-width for better responsiveness */
+        border: 1px solid #3498db; /* Added a border for a cleaner look */
+        outline: none;
+        background-color: #f2f2f2; /* Light background color */
+        border-radius: 8px; /* Increased border-radius for rounded corners */
+        transition: border-color 0.3s ease; /* Smooth transition for input focus */
+
+        &:focus {
+            border-color: #2980b9; /* Highlight border color on focus */
+        }
+    }
+}

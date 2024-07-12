@@ -1,0 +1,20 @@
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 95%; /* Slightly increased width for better spacing */
+    background-color: #506877; /* Blue background color for a more vibrant look */
+    padding: 1.5rem; /* Increased padding for better spacing */
+    color: #fff; /* White text color for better contrast */
+
+    li {
+        flex: 1;
+        text-align: center;
+    }
+
+    h5 {
+        font-size: 16px; /* Slightly increased font size for better readability */
+        margin: 0; /* Removed default margin for better alignment */
+    }
+}

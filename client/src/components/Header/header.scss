@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0a2b41; /* Updated to a blue color for attractiveness */
+    align-items: center;
+    height: 80px; /* Increased the height for a more prominent header */
+    padding: 0 40px; /* Increased padding for better spacing */
+
+    &__logo {
+        h3 {
+            color: #fff; /* White text color */
+            font-weight: 600; /* Increased font weight for better visibility */
+            margin: 0; /* Removed default margin for better alignment */
+            font-size: 24px; /* Increased font size for better readability */
+        }
+    }
+
+    .button {
+        background-color: #e74c3c; /* Red color for the button */
+        color: #fff; /* White text color for the button */
+        padding: 10px 20px; /* Added padding for a more substantial button */
+        border: none; /* Removed border for a cleaner look */
+        border-radius: 5px; /* Added border-radius for rounded corners */
+        cursor: pointer; /* Added pointer cursor for better UX */
+        transition: background-color 0.3s ease; /* Smooth transition effect */
+        
+        &:hover {
+            background-color: #c0392b; /* Darker red color on hover for interactivity */
+        }
+    }
+}
